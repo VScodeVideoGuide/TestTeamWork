@@ -18,3 +18,11 @@ body{
 =======
     font-family:Satis;
 }
+.navigation_left{
+float: left;
+
+}
+.navigation_right{
+float: right;
+
+}
