@@ -44,8 +44,7 @@ body{
   .contentleft {
       position: relative; /* позиционируется с потоком, смещение относительно top, right ...*/
   }
-  
-  .sidebar{
+.sidebar{
     width: 260px;
     height: 100%;
     background-image: url(images/background2.jpg);
@@ -237,3 +236,13 @@ body{
     color: white; 
   }
   
+    font-family:Satis;
+}
+.navigation_left{
+float: left;
+
+}
+.navigation_right{
+float: right;
+
+}
