@@ -2,5 +2,238 @@ body{
     background-color: rgb(99, 214, 235);
 }
 .hedder_test{
-    font-family:Satis;
+    text-align: center;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .header
+{
+    text-align: center;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+  body {
+      background-image: url(images/background.jpg); /* фон */
+  }
+  
+  ol {
+      list-style:none;
+  }
+  
+  ul {
+      list-style-image: url(images/label.png); /* картинка вместо маркера */
+      margin-left: 75px; 
+     }
+  
+  h3 {
+      color: grey;
+  }   
+  
+  .contentleft {
+      position: relative; /* позиционируется с потоком, смещение относительно top, right ...*/
+  }
+  
+  .sidebar{
+    width: 260px;
+    height: 100%;
+    background-image: url(images/background2.jpg);
+    padding: 30px 0px;
+    position: fixed; /* удаляется из потока, не меняет местоположение при прокрутке */
+  }
+  
+  .sidebar h2 {
+      text-align: right;
+      color: white;
+      margin-right: 20px;
+  
+  }
+  
+  .sidebar h6 {
+      text-align: right;
+      color: grey;
+      margin-right: 20px;
+      margin-top:5px;
+  }
+  
+  .sidebar ul li {
+      margin-top:20px;
+      padding: 15px;
+      text-align: right;
+      margin-right: 20px;
+      color: grey;
+      padding-bottom: 20px;
+  }
+  
+  .sidebar ul li a {
+      color: #bdb8d7;
+      display: block;
+  }
+  
+  .sidebar ul li:hover{
+    background-color: #594f8d;
+    border-radius: 5px;
+  }
+  
+  .sidebar ul li:hover a{
+    color: #fff;
+  }
+  .webnetwork {
+      position: absolute; /* элемент удаляется из потока */
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%); /* перемещение элемента по оси Х с его начальной точки */
+    display: flex;
+  }
+  
+  .webnetwork a { 
+      padding: 5px;
+      color: #bdb8d7;
+  }
+  
+  .maincontent{
+      position: fixed; /* Данный блок независим от сайда */
+      margin-top: 350px;
+    width: 100%;
+    margin-left: 600px;
+  }
+  .maincontent .main{
+    padding: 20px;
+    color: white;
+    
+  }
+  
+  .but {
+      margin-left: 150px;
+  }
+  
+  .button {
+      
+      background-color: #bdb8d7;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    
+  }
+  
+  .portfolio_content{
+      position: fixed; /* Данный блок независим от сайда */
+      margin-top: 200px;
+    width: 100%;
+    margin-left: 500px;
+  
+  }
+  
+   .main_portfolio{
+       margin-left: 150px;
+    padding: 20px;
+    color: white;
+    padding-bottom: 5%; /* отступы меджу текстом и картинками */
+    
+  }
+  
+  .images {
+        display: flex;
+    flex-flow: row nowrap; /* Слева направо в одну линию */
+    height: 100%;
+  }
+  
+  .images li {
+      padding-right: 2%; /* отступы меджу картинками */
+  
+  }
+  
+  .contacts_content{
+      position: fixed; /* Данный блок независим от сайда */
+      margin-top: 200px;
+    width: 100%;
+    margin-left: 600px;
+  }
+  .contacts_content .contacts{
+    padding: 20px;
+    color: white;
+    
+  }
+  
+  .contacts h1 {
+      margin-left: 200px;
+      padding-bottom: 20px;
+  }
+  
+  .contacts h3 {
+      padding-left: 100px;
+      padding-bottom: 30px;
+  }
+  
+  .form_group {
+      padding-right: 30px;
+  }
+  
+  .name {
+    color: #333;
+    font-size: 1.2rem;
+      margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding-right: 30px;
+  }
+  
+  .email {	
+    color: #333;
+    font-size: 1.2rem;
+      margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding-right: 30px;
+  }
+  
+  .message {
+    color: #333;
+    font-size: 1.2rem;
+      margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding-right: 330px;
+  }
+  
+  .send_button {
+      margin-top: 2%;
+      margin-left: 170px;
+  }
+  
+  .sendbutton {	
+      background-color: #bdb8d7;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white; 
+  }
+  
