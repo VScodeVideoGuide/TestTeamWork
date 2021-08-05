@@ -1,8 +1,7 @@
 body{
     background-color: rgb(99, 214, 235);
 }
-.hedder_test{
-    
+.hedder_test{    
 }
 
 .sidebar{
@@ -16,4 +15,6 @@ body{
 .webnetwork a { 
 	padding: 5px;
 	color: #ffffff;
+=======
+    font-family:Satis;
 }
