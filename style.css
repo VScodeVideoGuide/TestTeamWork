@@ -4,3 +4,16 @@ body{
 .hedder_test{
     
 }
+
+.sidebar{
+    width: 260px;
+    height: 100%;
+    background-image: url(images/background2.jpg);
+    padding: 30px 0px;
+    position: fixed; /* удаляется из потока, не меняет местоположение при прокрутке */
+  }
+  
+.webnetwork a { 
+	padding: 5px;
+	color: #ffffff;
+}
