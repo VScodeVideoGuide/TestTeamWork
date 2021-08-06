@@ -256,10 +256,11 @@ clear: both;
 
 }
 .news_section {
-    
+    width: 500px;
     font-size: 12px;
     font-family: Anton;
     color: rgb(209, 220, 230);
     text-align: left;
     padding: 0.2em;
+    overflow: scroll;
 }
