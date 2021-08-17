@@ -1,6 +1,4 @@
-body{
-  background: url("images/fon.jpg");
-}
+
 .hedder_test{
     text-align: center;
     padding: 15px;
@@ -19,7 +17,9 @@ body{
     color: rgb(189, 48, 48);
 }
   body {
-      background-image: url(images/background.jpg); /* фон */
+      background-image: url(images/fon.jpg);
+      width: 100%;
+      height: 100%; /* фон */
   }
   
   ol {
@@ -36,7 +36,7 @@ body{
   }   
   
   .contentleft {
-    /*  position: relative; /* позиционируется с потоком, смещение относительно top, right ...*/
+      position: relative; /* позиционируется с потоком, смещение относительно top, right ...*/
   }
 .sidebar{
     width: 260px;
@@ -86,10 +86,12 @@ body{
   display: inline;
   }
   .webnetwork {
-      position: absolute; /* элемент удаляется из потока */
-    bottom: 15px;
+    background: cornsilk;
+    /*position: absolute; /* элемент удаляется из потока */
+    position: bottom;
+    /*bottom: 15px;*/
     left: 50%;
-    transform: translateX(-50%); /* перемещение элемента по оси Х с его начальной точки */
+   /* transform: translateX(-50%); /* перемещение элемента по оси Х с его начальной точки */
     display: flex;
   }
   
@@ -239,22 +241,28 @@ body{
 	color: #ffffff;
     font-family:Satis;
 }
+.navigation{
+text-align: center;
+border: 1px;;
+border-radius: 25px;
+
+}
 .navigation_left{
 float: left;
-clear: both;
+margin: 15px;
 
 }
 
 
 
 .news_section {
-  
-    width: 500px;
+  clear: both;
+    
     font-size: 12px;
     font-family: Anton;
     color: rgb(209, 220, 230);
     text-align: left;
     padding: 0.2em;
-    overflow: scroll;
+    /*overflow: scroll;*/
     margin: 0;
 }
