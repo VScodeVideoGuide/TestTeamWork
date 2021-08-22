@@ -8,10 +8,8 @@
 
 .header {
   text-align: center;
-  padding: 15px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 40px;
-  color: rgb(189, 48, 48);
+  color: #ffffff;
 }
 body {
   background-image: url(images/fon.jpg);
@@ -33,7 +31,10 @@ ul {
 h3 {
   color: grey;
 }
-
+.content {
+  text-align: center;
+  color: #ffffff;
+}
 .contentleft {
   position: relative; /* позиционируется с потоком, смещение относительно top, right ...*/
 }
@@ -85,12 +86,10 @@ h3 {
 .webnetwork {
   background: cornsilk;
   position: bottom;
-  bottom:0;
+  bottom: 0;
   left: 50%;
   /*display: flex;*/
   margin: auto;
-  
-  
 }
 .webnetwork a {
   clear: both;
@@ -249,7 +248,7 @@ h3 {
 
 .news_section {
   clear: both;
-background-color: black;
+  background-color: black;
   font-size: 24px;
   font-family: Anton;
   color: rgb(209, 220, 230);
