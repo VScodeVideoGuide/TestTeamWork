@@ -5,7 +5,26 @@
   font-size: 40px;
   color: rgb(255, 255, 255);
 }
-
+ul.links{
+  margin: 0;
+  padding: 4px;
+  background-color:rgb(172, 172, 172);
+}
+ul.links li {
+  display: inline;
+  margin-right: 5px;
+  padding: 3px 10px 0px 0px;
+  text-decoration: none;
+}
+a:link {
+  color: green;
+  text-decoration: none;
+}
+.header {
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffffff;
+}
 .header {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -84,10 +103,11 @@ h3 {
   display: inline;
 }
 .webnetwork {
-  background: cornsilk;
+  background: rgb(175, 175, 175) ;
   position: bottom;
   bottom: 0;
   left: 50%;
+  height: 100px;
   /*display: flex;*/
   margin: auto;
 }
@@ -113,7 +133,7 @@ h3 {
 }
 
 .button {
-  background-color: #bdb8d7;
+  background-color: #ffffff;
   text-decoration: none;
   outline: none;
   display: inline-block;
